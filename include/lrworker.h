@@ -1,8 +1,10 @@
-#ifndef LRWorker_H
-#define LRWorker_H
+#ifndef LRWorker_H_
+#define LRWorker_H_
 
 
-typedef float real_t;
+#include "base.h"
+
+#include <vector>
 
 
 class LRWorker {
@@ -40,4 +42,4 @@ public:
 };
 
 
-#endif  // LRWorker_H
+#endif  // LRWorker_H_
